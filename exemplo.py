@@ -4,7 +4,7 @@ from time import time, sleep
 from datetime import datetime
 import pandas as pd
 
-API = IQ_Option ('hobsonbmn.trader@gmail.com','natalia12')
+API = IQ_Option ('hobsonbmn.trader@gmail.com','senha')
 API.connect()
 
 API.change_balance('PRACTICE') # PRACTICE / REAL
