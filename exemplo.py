@@ -14,14 +14,12 @@ else:
     input('\n\n Aperte enter para sair')
     exit()
 
-par ='EURUSD' 
+par = 'EURUSD'
 timeframe = 15
- 
 payout = API.get_digital_payout(par)
 print(payout)
 
-status, id = API.buy_digital_spot_v2(par,10,'put', 15)
+status, id = API.buy_digital_spot_v2(par,2,'call', 15)
 
 print(status ,id) 
 
-     
