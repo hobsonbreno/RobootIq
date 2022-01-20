@@ -2,7 +2,7 @@
 from iqoptionapi.stable_api import IQ_Option
 import time
 
-API = IQ_Option ('hobsonbmn.trader@gmail.com','natalia12')
+API = IQ_Option ('hobsonbmn.trader@gmail.com','não digo curioso')
 API.connect()
 
 API.change_balance('PRACTICE') # PRACTICE / REAL
