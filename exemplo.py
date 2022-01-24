@@ -52,6 +52,7 @@ else:
 par = 'EURUSD'
 timeframe = 15
 
+#print('\n')
 #while True:
 #df =get_data(par,timeframe,200)
 #taxa,cor = MovAvarDev(df,20)
@@ -59,7 +60,11 @@ timeframe = 15
 #ssma_3 = TA.ssma(df,50)
 #if ssma_3.iloc[-1]<=ssma_50.iloc[-1] and ssma_3.iloc[-2]>ssma_50.iloc[-2] and color == 'red':
     #entrada(par,'put',timeframe)
-
+    
+#elif ssma_3.iloc[-1] >= ssma_50.iloc[-1] and ssma_3.iloc[-2] < ssma_50.iloc[-2] and color == 'green':
+    #entrada(par,'call',timeframe)
+    
+#print(f"[{datetime.now().strftime('%H:%M:%S')}]::Aguardando Oportunidade de Entrada..", end = '\r')
 
 
 
